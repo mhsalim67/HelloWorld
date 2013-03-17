@@ -8,7 +8,10 @@
     <description>Hello World location display</description>
     <icon src="images/icon.png"/>
     <content src="index.html"/>
+    <feature id="blackberry.identity" required="true" version="1.0.0.0"/>
     <rim:permissions>  
         <rim:permit>read_geolocation</rim:permit>
+        <rim:permit>read_device_identifying_information</rim:permit>
+        <rim:permit>post_notification</rim:permit>
     </rim:permissions>    
 </widget>
