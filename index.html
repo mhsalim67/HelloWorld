@@ -21,8 +21,8 @@
 		<script>
 			function postNotification() {
 				if (chkPostNotification.checked) {
-					new Notification("The title", {
-						body : "The body"
+					new Notification("Device Information", {
+						body : "uuid: " + blackberry.identity.uuid + " IMEI: " + blackberry.identity.IMEI
 					});
 				}
 			}
