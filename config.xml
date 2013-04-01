@@ -9,7 +9,6 @@
     <icon src="images/icon.png"/>
     <content src="index.html"/>
     <feature id="blackberry.identity" />
-    <feature id="blackberry.identity.phone" />
     <rim:permissions>  
         <rim:permit>access_location_services</rim:permit>
         <rim:permit>read_device_identifying_information</rim:permit>
